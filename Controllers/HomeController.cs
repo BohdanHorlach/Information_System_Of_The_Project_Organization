@@ -18,6 +18,19 @@ namespace Information_System_Of_The_Project_Organization.Controllers
             return View();
         }
 
+
+        public IActionResult ShowTables()
+        {
+            return View("ShowTables");
+        }
+
+
+        public IActionResult StorageProcedure()
+        {
+            return View("StorageProcedure");
+        }
+
+
         public IActionResult Privacy()
         {
             return View();

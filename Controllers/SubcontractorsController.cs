@@ -26,6 +26,13 @@ namespace Information_System_Of_The_Project_Organization.Controllers
                           Problem("Entity set 'Information_System_Of_The_Project_OrganizationContext.Subcontractors'  is null.");
         }
 
+        public async Task<IActionResult> GetSubcontractorWorksInfo()
+        {
+              return _context.Subcontractors != null ? 
+                          View("GetSubcontractorWorksInfo", await _context.SubcontractorWorksInfo.FromSqlRaw("EXEC GetSubcontractorWorksInfo").ToListAsync()) :
+                          Problem("Entity set 'Information_System_Of_The_Project_OrganizationContext.Subcontractors'  is null.");
+        }
+
         // GET: Subcontractors/Details/5
         public async Task<IActionResult> Details(int? id)
         {

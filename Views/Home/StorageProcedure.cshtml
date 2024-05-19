@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Storage Procedure";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Storage Procedure</h1>
+    <p>@Html.ActionLink("Get Employees By Params", "GetEmployeeDataByParams", "Employees", new { category = "", department = "" }, null)</p>
+    <p>@Html.ActionLink("Get Departments Leaders", "GetAllDepartmentsLeaders", "Employees")</p>
+    <p>@Html.ActionLink("Get Projects Progress", "GetProjectsInProgressOrCompleted", "Projects")</p>
+    <p>@Html.ActionLink("Get Projects From Pacts", "GetProjectsFromPacts", "PactProjects", new { pactName = "" })</p>
+    <p>@Html.ActionLink("Get Total Cost From Pacts", "GetTotalCostFromPacts", "PactProjects")</p>
+    <p>@Html.ActionLink("Get Current Equipment Involved", "GetCurrentEquipmentInvolved", "EquipmentDepartments")</p>
+    <p>@Html.ActionLink("Get Used Equipment From Pact", "GetUsedEquipmentFromPact", "Equipments")</p>
+    <p>@Html.ActionLink("Get Employees Info To Projects Activities", "GetEmployeesInfoToProjectsActivities", "Employees")</p>
+    <p>@Html.ActionLink("Get Subcontractor Works Info", "GetSubcontractorWorksInfo", "Subcontractors")</p>
+    <p>@Html.ActionLink("Get Count Employees By Category From Project", "GetCountEmployeesByCategoryFromProject", "Employees")</p>
+</div>

@@ -1,0 +1,417 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Information_System_Of_The_Project_Organization
+build_property.RootNamespace = Information_System_Of_The_Project_Organization
+build_property.ProjectDir = D:\Visual Studio 2022\VS Project\3 курс\БД\Information_System_Of_The_Project_Organization\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Visual Studio 2022\VS Project\3 курс\БД\Information_System_Of_The_Project_Organization
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsEmployees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNFbXBsb3llZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsEmployees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNFbXBsb3llZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsEmployees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNFbXBsb3llZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsEmployees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNFbXBsb3llZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsEmployees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNFbXBsb3llZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsLeaders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNMZWFkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsLeaders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNMZWFkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsLeaders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNMZWFkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsLeaders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNMZWFkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/DepartmentsLeaders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNMZWFkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Departments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EmployeeCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVDYXRlZ29yaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EmployeeCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVDYXRlZ29yaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EmployeeCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVDYXRlZ29yaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EmployeeCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVDYXRlZ29yaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EmployeeCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVDYXRlZ29yaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/GetEmployeesDataByParams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEdldEVtcGxveWVlc0RhdGFCeVBhcmFtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentDepartments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentDepartments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentDepartments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentDepartments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentDepartments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentUsedInProjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50VXNlZEluUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentUsedInProjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50VXNlZEluUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentUsedInProjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50VXNlZEluUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentUsedInProjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50VXNlZEluUHJvamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentUsedInProjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50VXNlZEluUHJvamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/OrdersFromSubcontractors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRnJvbVN1YmNvbnRyYWN0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/OrdersFromSubcontractors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRnJvbVN1YmNvbnRyYWN0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/OrdersFromSubcontractors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRnJvbVN1YmNvbnRyYWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/OrdersFromSubcontractors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRnJvbVN1YmNvbnRyYWN0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/OrdersFromSubcontractors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRnJvbVN1YmNvbnRyYWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/GetProjectsFromPacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXEdldFByb2plY3RzRnJvbVBhY3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Pacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Pacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Pacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Pacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Pacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ProjectEmployees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdEVtcGxveWVlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ProjectEmployees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdEVtcGxveWVlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ProjectEmployees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdEVtcGxveWVlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ProjectEmployees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdEVtcGxveWVlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ProjectEmployees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdEVtcGxveWVlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/GetProjectsInProgressOrCompleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcR2V0UHJvamVjdHNJblByb2dyZXNzT3JDb21wbGV0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ResponsibilityInTheProjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2liaWxpdHlJblRoZVByb2plY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ResponsibilityInTheProjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2liaWxpdHlJblRoZVByb2plY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ResponsibilityInTheProjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2liaWxpdHlJblRoZVByb2plY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ResponsibilityInTheProjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2liaWxpdHlJblRoZVByb2plY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/ResponsibilityInTheProjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9uc2liaWxpdHlJblRoZVByb2plY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViY29udHJhY3RvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViY29udHJhY3RvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViY29udHJhY3RvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViY29udHJhY3RvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViY29udHJhY3RvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfOrderInSubcontractors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mT3JkZXJJblN1YmNvbnRyYWN0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfOrderInSubcontractors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mT3JkZXJJblN1YmNvbnRyYWN0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfOrderInSubcontractors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mT3JkZXJJblN1YmNvbnRyYWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfOrderInSubcontractors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mT3JkZXJJblN1YmNvbnRyYWN0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfOrderInSubcontractors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mT3JkZXJJblN1YmNvbnRyYWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfWorkForEquipments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mV29ya0ZvckVxdWlwbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfWorkForEquipments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mV29ya0ZvckVxdWlwbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfWorkForEquipments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mV29ya0ZvckVxdWlwbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfWorkForEquipments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mV29ya0ZvckVxdWlwbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/TypeOfWorkForEquipments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU9mV29ya0ZvckVxdWlwbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oslyk0uavl

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 
 
 
@@ -36,13 +33,30 @@ namespace Information_System_Of_The_Project_Organization.Models
         public virtual DbSet<Subcontractor> Subcontractors { get; set; } = null!;
         public virtual DbSet<TypeOfOrderInSubcontractor> TypeOfOrderInSubcontractors { get; set; } = null!;
         public virtual DbSet<TypeOfWorkForEquipment> TypeOfWorkForEquipments { get; set; } = null!;
+        public DbSet<ProjectsFromPacts> ProjectsFromPacts { get; set; } = null!;
+        public DbSet<TotalCostFromPacts> TotalCostFromPacts { get; set; } = null!;
+        public DbSet<CurrentEquipmentInvolved> CurrentEquipmentInvolveds { get; set; } = null!;
+        public DbSet<UsedEquipmentFromPact> UsedEquipmentFromPact { get; set; } = null!;
+        public DbSet<EmployeesInfoToProjectsActivities> EmployeesInfoToProjectsActivities { get; set; } = null!;
+        public DbSet<SubcontractorWorksInfo> SubcontractorWorksInfo { get; set; } = null!;
+        public DbSet<CountEmployeesByCategoryFromProject> CountEmployeesByCategoryFromProject { get; set; } = null!;
+
+
+        public string CurrentRole { get; set; }
+
+        public string DefaultStringConnection
+        {
+            get => "Server=localhost;Database=Information_System_Of_The_Project_Organization;User Id=Bohdan_User;Password=user;";
+        }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=localhost;Database=Information_System_Of_The_Project_Organization;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer(DefaultStringConnection);
+                CurrentRole = "User";
             }
         }
 
@@ -266,6 +280,137 @@ namespace Information_System_Of_The_Project_Organization.Models
                 entity.Property(e => e.Id).HasColumnName("ID");
 
                 entity.Property(e => e.TypeOfWork).HasMaxLength(50);
+            });
+
+            modelBuilder.Entity<ProjectsFromPacts>().HasNoKey();
+
+            modelBuilder.Entity<ProjectsFromPacts>(entity => 
+            {
+                entity.ToTable("ProjectsFromPacts");
+
+                entity.Property(e => e.ProjectID).HasColumnName("ProjectID");
+
+                entity.Property(e => e.NameProject).HasMaxLength(100);
+                
+                entity.Property(e => e.PactID).HasColumnName("PactID");
+
+                entity.Property(e => e.PactName).HasMaxLength(100);
+            });
+
+            modelBuilder.Entity<TotalCostFromPacts>().HasNoKey();
+
+            modelBuilder.Entity<TotalCostFromPacts>(entity =>
+            {
+                entity.ToTable("TotalCostFromPacts");
+
+                entity.Property(e => e.PactName).HasColumnName("PactName");
+
+                entity.Property(e => e.TotalCost).HasColumnType("money");
+            });
+
+            modelBuilder.Entity<CurrentEquipmentInvolved>().HasNoKey();
+
+            modelBuilder.Entity<CurrentEquipmentInvolved>(entity =>
+            {
+                entity.ToTable("CurrentEquipmentInvolved");
+
+                entity.Property(e => e.EquipmentId).HasColumnName("EquipmentID");
+
+                entity.Property(e => e.Destination).HasMaxLength(50);
+
+                entity.Property(e => e.EquipmentName).HasMaxLength(50);
+
+                entity.Property(e => e.EquipmentDepartmentId).HasColumnName("EquipmentDepartmentID");
+
+                entity.Property(e => e.AppointmentDate).HasColumnType("date");
+
+                entity.Property(e => e.DismissalDate).HasColumnType("date");
+
+                entity.Property(e => e.IdDepartaments).HasColumnName("ID_Departaments");
+
+                entity.Property(e => e.IdEquipment).HasColumnName("ID_Equipment");
+            });
+
+            modelBuilder.Entity<UsedEquipmentFromPact>().HasNoKey();
+
+            modelBuilder.Entity<UsedEquipmentFromPact>(entity =>
+            {
+                entity.ToTable("UsedEquipmentFromPact");
+
+                entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.Destination).HasMaxLength(50);
+
+                entity.Property(e => e.EquipmentName).HasMaxLength(50);
+
+                entity.HasIndex(e => e.PactName, "IDX_Pact_PactName");
+                
+                entity.Property(e => e.PactName).HasMaxLength(50);
+
+                entity.Property(e => e.TypeOfWork).HasMaxLength(50);
+
+                entity.HasIndex(e => e.NameProject, "IDX_Projects_NameProject");
+
+                entity.Property(e => e.NameProject).HasMaxLength(150);
+
+                entity.Property(e => e.AppointmentDate).HasColumnType("date");
+
+                entity.Property(e => e.DismissalDate).HasColumnType("date");
+            });
+
+            modelBuilder.Entity<EmployeesInfoToProjectsActivities>().HasNoKey();
+
+            modelBuilder.Entity<EmployeesInfoToProjectsActivities>(entity =>
+            {
+                entity.ToTable("EmployeesInfoToProjectsActivities");
+
+                entity.HasIndex(e => e.Education, "IDX_Employees_Education");
+
+                entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.Education).HasMaxLength(100);
+
+                entity.Property(e => e.FirstName).HasMaxLength(50);
+
+                entity.Property(e => e.LastName).HasMaxLength(50);
+
+                entity.Property(e => e.MiddleName).HasMaxLength(50);
+
+                entity.HasIndex(e => e.CategoryName, "IDX_Categories_CategoryName");
+
+                entity.Property(e => e.CategoryName).HasMaxLength(50);
+
+                entity.HasIndex(e => e.NameProject, "IDX_Projects_NameProject");
+
+                entity.Property(e => e.NameProject).HasMaxLength(150);
+
+                entity.Property(e => e.AppointmentDate).HasColumnType("date");
+
+                entity.Property(e => e.DismissalDate).HasColumnType("date");
+            });
+
+            modelBuilder.Entity<SubcontractorWorksInfo>().HasNoKey();
+
+            modelBuilder.Entity<SubcontractorWorksInfo>(entity =>
+            {
+                entity.ToTable("SubcontractorWorksInfo");
+
+                entity.Property(e => e.NameOrganization).HasMaxLength(50);
+
+                entity.Property(e => e.TypeOfOrder).HasMaxLength(50);
+
+                entity.Property(e => e.Cost).HasColumnType("money");
+            });
+
+            modelBuilder.Entity<CountEmployeesByCategoryFromProject>().HasNoKey();
+
+            modelBuilder.Entity<CountEmployeesByCategoryFromProject>(entity =>
+            {
+                entity.ToTable("CountEmployeesByCategoryFromProject");
+
+                entity.Property(e => e.Category).HasMaxLength(50);
+
+                entity.Property(e => e.EmployeeCount).HasColumnName("EmployeeCount");
             });
 
             OnModelCreatingPartial(modelBuilder);

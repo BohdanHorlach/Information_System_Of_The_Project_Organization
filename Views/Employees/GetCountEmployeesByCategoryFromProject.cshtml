@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Information_System_Of_The_Project_Organization.Models.CountEmployeesByCategoryFromProject>
+
+@{
+    ViewData["Title"] = "Count Employees By Category From Project";
+}
+
+<h1>Count Employees By Category From Project</h1>
+
+<form asp-action="GetCountEmployeesByCategoryFromProject" asp-controller="Employees" method="get">
+    <div>
+        <label for="nameProject">Name Project:</label>
+        <input type="text" id="nameProject" name="nameProject" />
+    </div>
+    <button type="submit">Show Employees Count</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Category);
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeCount);
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeCount)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Information_System_Of_The_Project_Organization.Models;
 
@@ -25,6 +20,19 @@ namespace Information_System_Of_The_Project_Organization.Controllers
                           View(await _context.Projects.ToListAsync()) :
                           Problem("Entity set 'Information_System_Of_The_Project_OrganizationContext.Projects'  is null.");
         }
+
+
+
+        public async Task<IActionResult> GetProjectsInProgressOrCompleted(DateTime startDate, DateTime endDate)
+        {
+            DateTime? startDateToProcedure = startDate == DateTime.MinValue ? null : startDate;
+            DateTime? endDateToProcedure = endDate == DateTime.MinValue ? null : endDate;
+
+            List<Project> projects = await _context.Projects.FromSqlInterpolated($"EXEC GetProjectsInProgressOrCompleted {startDateToProcedure}, {endDateToProcedure}").ToListAsync();
+
+            return View("GetProjectsInProgressOrCompleted", projects);
+        }
+
 
         // GET: Projects/Details/5
         public async Task<IActionResult> Details(int? id)

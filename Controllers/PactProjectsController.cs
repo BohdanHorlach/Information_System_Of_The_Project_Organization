@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Information_System_Of_The_Project_Organization.Models;
+
 
 namespace Information_System_Of_The_Project_Organization.Controllers
 {
@@ -25,6 +21,26 @@ namespace Information_System_Of_The_Project_Organization.Controllers
                           View(await _context.PactProjects.ToListAsync()) :
                           Problem("Entity set 'Information_System_Of_The_Project_OrganizationContext.PactProjects'  is null.");
         }
+
+
+        public async Task<IActionResult> GetProjectsFromPacts(string pactName)
+        {
+            List<ProjectsFromPacts> projects = await _context.ProjectsFromPacts.FromSqlInterpolated($"EXEC GetProjectsFromPacts {pactName}").ToListAsync();
+
+            return View("GetProjectsFromPacts", projects);
+        }
+
+
+        public async Task<IActionResult> GetTotalCostFromPacts(DateTime startDate, DateTime endDate)
+        {
+            DateTime? startDateToProcedure = startDate == DateTime.MinValue ? null : startDate;
+            DateTime? endDateToProcedure = endDate == DateTime.MinValue ? null : endDate;
+
+            List<TotalCostFromPacts> costInfo = await _context.TotalCostFromPacts.FromSqlInterpolated($"EXEC GetTotalCostFromPacts {startDateToProcedure}, {endDateToProcedure}").ToListAsync();
+
+            return View("GetTotalCostFromPacts", costInfo);
+        }
+
 
         // GET: PactProjects/Details/5
         public async Task<IActionResult> Details(int? id)

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Information_System_Of_The_Project_Organization.Models.ProjectsFromPacts>
+
+@{
+    ViewData["Title"] = "Projects From Pacts";
+}
+
+<h1>Projects From Pacts</h1>
+
+<form asp-action="GetProjectsFromPacts" asp-controller="PactProjects" method="get">
+    <div>
+        <label for="pactName">Pact Name:</label>
+        <input type="text" id="pactName" name="pactName" />
+    </div>
+    <button type="submit">Show Projects</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NameProject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PactID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PactName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProjectID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameProject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PactID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PactName)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

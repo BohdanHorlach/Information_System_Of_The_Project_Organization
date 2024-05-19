@@ -26,6 +26,17 @@ namespace Information_System_Of_The_Project_Organization.Controllers
                           Problem("Entity set 'Information_System_Of_The_Project_OrganizationContext.EquipmentDepartments'  is null.");
         }
 
+
+        public async Task<IActionResult> GetCurrentEquipmentInvolved(DateTime currentDate)
+        {
+            DateTime? dateToProcedure = DateTime.MinValue == currentDate ? null : currentDate;
+
+            List<CurrentEquipmentInvolved> currentEquipmentInvolveds = await _context.CurrentEquipmentInvolveds.FromSqlInterpolated($"EXEC GetCurrentEquipmentInvolved {dateToProcedure}").ToListAsync();
+
+            return View("GetCurrentEquipmentInvolved", currentEquipmentInvolveds);
+        }
+
+
         // GET: EquipmentDepartments/Details/5
         public async Task<IActionResult> Details(int? id)
         {

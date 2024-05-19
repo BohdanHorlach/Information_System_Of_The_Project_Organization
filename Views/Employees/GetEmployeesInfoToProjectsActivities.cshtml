@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Information_System_Of_The_Project_Organization.Models.EmployeesInfoToProjectsActivities>
+
+@{
+    ViewData["Title"] = "Get Employees Info To Projects Activities";
+}
+
+<h1>Get Employees Info To Projects Activities</h1>
+
+<form asp-action="GetEmployeesInfoToProjectsActivities" asp-controller="Employees" method="get">
+    <div>
+        <label for="employeeId">employeeId:</label>
+        <input type="number" id="employeeId" name="employeeId" />
+    </div>
+    <div>
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" />
+    </div>
+    <div>
+        <label for="appointmentDate">Appointment Date:</label>
+        <input type="date" id="appointmentDate" name="appointmentDate" />
+    </div>
+    <div>
+        <label for="dismissalDate">Dismissal Date:</label>
+        <input type="date" id="dismissalDate" name="dismissalDate" />
+    </div>
+    <button type="submit">Show Employees</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Middle Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Age
+            </th>
+            <th>
+                Education
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName);
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NameProject);
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentDate);
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DismissalDate);
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MiddleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Education)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameProject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AppointmentDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DismissalDate)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

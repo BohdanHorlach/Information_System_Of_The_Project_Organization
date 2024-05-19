@@ -132,8 +132,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/GetCountEmployeesByCategoryFromProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEdldENvdW50RW1wbG95ZWVzQnlDYXRlZ29yeUZyb21Qcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/GetEmployeesDataByParams.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEdldEVtcGxveWVlc0RhdGFCeVBhcmFtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/GetEmployeesInfoToProjectsActivities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEdldEVtcGxveWVlc0luZm9Ub1Byb2plY3RzQWN0aXZpdGllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Employees/Index.cshtml]
@@ -156,6 +164,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentDepartments/GetCurrentEquipmentInvolved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcR2V0Q3VycmVudEVxdWlwbWVudEludm9sdmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/EquipmentDepartments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -174,6 +186,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/GetUsedEquipmentFromPact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50c1xHZXRVc2VkRXF1aXBtZW50RnJvbVBhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Equipments/Index.cshtml]
@@ -206,6 +222,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Home/ShowTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93VGFibGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Home/StorageProcedure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdG9yYWdlUHJvY2VkdXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/OrdersFromSubcontractors/Create.cshtml]
@@ -242,6 +266,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/GetProjectsFromPacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXEdldFByb2plY3RzRnJvbVBhY3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/GetTotalCostFromPacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjdFByb2plY3RzXEdldFRvdGFsQ29zdEZyb21QYWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/PactProjects/Index.cshtml]
@@ -304,6 +336,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/GetProjectsInProgressOrCompleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcR2V0UHJvamVjdHNJblByb2dyZXNzT3JDb21wbGV0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Projects/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -350,6 +386,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViY29udHJhY3RvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/GetSubcontractorWorksInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViY29udHJhY3RvcnNcR2V0U3ViY29udHJhY3RvcldvcmtzSW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio 2022/VS Project/3 курс/БД/Information_System_Of_The_Project_Organization/Views/Subcontractors/Index.cshtml]

@@ -1,6 +1,7 @@
 using Information_System_Of_The_Project_Organization.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Information_System_Of_The_Project_Organization
 {
     public class Program
@@ -26,7 +27,12 @@ namespace Information_System_Of_The_Project_Organization
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                ServeUnknownFileTypes = true,
+                DefaultContentType = "../wwwroot"
+            });
 
             app.UseRouting();
 

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Information_System_Of_The_Project_Organization.Models.CurrentEquipmentInvolved>
+
+@{
+    ViewData["Title"] = "Current Equipment Involved";
+}
+
+<h1>Current Equipment Involved</h1>
+
+
+<form asp-action="GetCurrentEquipmentInvolved" asp-controller="EquipmentDepartments" method="get">
+    <div>
+        <label for="currentDate">Current Date:</label>
+        <input type="date" id="currentDate" name="currentDate" />
+    </div>
+    <button type="submit">Get Equipment Info</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EquipmentName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdDepartaments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEquipment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DismissalDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EquipmentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Destination)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdDepartaments)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdEquipment)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AppointmentDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DismissalDate)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

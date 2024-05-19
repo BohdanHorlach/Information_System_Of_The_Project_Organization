@@ -26,6 +26,17 @@ namespace Information_System_Of_The_Project_Organization.Controllers
                           Problem("Entity set 'Information_System_Of_The_Project_OrganizationContext.Equipment'  is null.");
         }
 
+
+        public async Task<IActionResult> GetUsedEquipmentFromPact(string pactName)
+        {
+            string? pactNameToProcedure = pactName == "" || pactName == null ? null : pactName;
+
+            List<UsedEquipmentFromPact> usedEquipmentFromPacts = await _context.UsedEquipmentFromPact.FromSqlInterpolated($"EXEC GetUsedEquipmentFromPact {pactNameToProcedure}").ToListAsync();
+
+            return View("GetUsedEquipmentFromPact", usedEquipmentFromPacts);
+        }
+
+
         // GET: Equipments/Details/5
         public async Task<IActionResult> Details(int? id)
         {

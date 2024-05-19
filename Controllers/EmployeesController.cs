@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Information_System_Of_The_Project_Organization.Models;
-using Microsoft.Data.SqlClient;
+
 
 namespace Information_System_Of_The_Project_Organization.Controllers
 {
@@ -30,12 +25,45 @@ namespace Information_System_Of_The_Project_Organization.Controllers
         // GET: Employees/GetEmployeeData
         public async Task<IActionResult> GetEmployeeDataByParams(string category, string department)
         {
-            var employees = department == "" || department == null ?
-                await _context.Employees.FromSqlInterpolated($"EXEC GetEmployeeDataByCategory {category}").ToListAsync() :
-                await _context.Employees.FromSqlInterpolated($"EXEC GetEmployeeDataByCategory {category}, {department}").ToListAsync() ;
+            List<Employee> employees;
+
+            if (department == "" || department == null)
+                employees = await _context.Employees.FromSqlInterpolated($"EXEC GetEmployeeDataByCategory {category}").ToListAsync();
+            else
+                employees = await _context.Employees.FromSqlInterpolated($"EXEC GetEmployeeDataByCategory {category}, {department}").ToListAsync();
+
             return View("GetEmployeesDataByParams", employees);
         }
 
+
+        // GET: Employees/GetAllDepartmentsLeaders
+        public async Task<IActionResult> GetAllDepartmentsLeaders()
+        {
+            List<Employee> employees = await _context.Employees.FromSqlRaw("EXEC GetAllDepartmentsLeaders").ToListAsync();
+
+            return View("Index", employees);
+        }
+
+
+        public async Task<IActionResult> GetEmployeesInfoToProjectsActivities(int employeeId, string category, DateTime appointmentDate, DateTime dismissalDate)
+        {
+            int? employeeIDToProcedure = employeeId == 0 ? null : employeeId;
+            string? caterotyToProcedure = category == "" ? null : category;
+            DateTime? firstDate = appointmentDate == DateTime.MinValue ? null : appointmentDate;
+            DateTime? secondDate = dismissalDate == DateTime.MinValue ? null : dismissalDate;
+
+            List<EmployeesInfoToProjectsActivities> projectsActivities = await _context.EmployeesInfoToProjectsActivities.FromSqlInterpolated($"EXEC GetEmployeesInfoToProjectsActivities {employeeIDToProcedure}, {caterotyToProcedure}, {firstDate}, {secondDate}").ToListAsync();
+
+            return View("GetEmployeesInfoToProjectsActivities", projectsActivities);
+        }
+
+
+        public async Task<IActionResult> GetCountEmployeesByCategoryFromProject(string nameProject)
+        {
+            List<CountEmployeesByCategoryFromProject> countEmployeesInfo = await _context.CountEmployeesByCategoryFromProject.FromSqlInterpolated($"EXEC GetCountEmployeesByCategoryFromProject {nameProject}").ToListAsync();
+
+            return View("GetCountEmployeesByCategoryFromProject", countEmployeesInfo);
+        }
 
         // GET: Employees/Details/5
         public async Task<IActionResult> Details(int? id)

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Information_System_Of_The_Project_Organization.Models.UsedEquipmentFromPact>
+
+@{
+    ViewData["Title"] = "Used Equipment From Pact";
+}
+
+<h1>Used Equipment From Pact</h1>
+
+<form asp-action="GetUsedEquipmentFromPact" asp-controller="Equipments" method="get">
+    <div>
+        <label for="pactName">Pact Name:</label>
+        <input type="text" id="pactName" name="pactName" />
+    </div>
+    <button type="submit">Get Used Equipment From Pact</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EquipmentName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PactName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NameProject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TypeOfWork)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DismissalDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayFor(modelItem => item.EquipmentName)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.Destination)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.PactName)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.NameProject)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.TypeOfWork)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.AppointmentDate)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.DismissalDate)
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>
